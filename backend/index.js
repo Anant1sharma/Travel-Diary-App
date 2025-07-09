@@ -23,7 +23,7 @@ const app = express()
 // Enable CORS for frontend (Replace with your frontend URL)
 app.use(
   cors({
-    origin: "http://localhost:5173", //frontend URL
+    origin: "https://travel-diary-app-qlyc.onrender.com", //frontend URL
     methods: ["GET", "POST", "PUT", "DELETE"], // Allow CRUD operations
     credentials: true, // Allow cookies & authorization headers
   })
